@@ -56,7 +56,7 @@ Julie.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
             var uri = encodeURI(match[1])
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '918921483992@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '94761539856@s.whatsapp.net' || !!message.mention && message.mention[0] == '94781564565@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./media/uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.MENTION) {
@@ -89,7 +89,7 @@ if(pattern.test(message.message)){
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '918921483992@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '94761539856@s.whatsapp.net' || !!message.mention && message.mention[0] == '94781564565@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./media/files/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,contextInfo: { forwardingScore: 5, isForwarded: true }, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.MENTION) {
@@ -121,7 +121,7 @@ Julie.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if(Config.STICKERP){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
-    if (!!message.mention && message.mention[0] == '918921483992@s.whatsapp.net') {
+    if (!!message.mention && message.mention[0] == '94761539856@s.whatsapp.net' || !!message.mention && message.mention[0] == '94781564565@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./media/stickers/mention.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
 const array = ['Alone','alone','ariyo','Ariyo','bie','Bie','colony','Colony','Bye','Muthe','Police','Teach','Thech','Z','aayo','alla','anthas','ayin','aysheri','bie','bye','chathu','cheyalle','chunk','committed','mama','marichu','mention','mood','muthe','myre','njan','number','ok','oombi','ooo','pedicho','pidi','poweresh','sad','saved','shaad','shut','teach','test','thech','think','thund','umma','uyir','vannu','vibe','z','dead','JulieMwol','Like','pever','sry','night','indo','uff','poyi','scene','killadi','nee alle','sheri','vada','poocha','morning','pm','thund','remove','Sed','araa','Da','madthu','Hlo','air','Bomb','Julie','fan','charge','cute','Cute','Dance','dance','Eh','Entha','exam','Exam','Entha','fans','Fans','Girls','girls','give','Hate','hi','Hi','Hate','hlo','HLo','julie','kunna','Kunna','kutti','Kutti','love','Lub','Love','myr','Myr','myre','Myre','oh','Oh','sad','Sad','Search','search','Work','work','wow','Wow','z','Z','sed','Sed']
