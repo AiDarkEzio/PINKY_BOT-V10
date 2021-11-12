@@ -6,6 +6,7 @@ dont change credit
 
 const AiDarkEzio= require('../events');
 const config = require('../config');
+const Configs = require('./sql/data/Configs')
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const hrs = new Date().getHours({ timeZone: 'Asia/Colombo' })
@@ -81,7 +82,7 @@ AiDarkEzio.addCommand({pattern: 'alive', fromMe: false, desc: 'It send alive msg
 | │
 | │Aᴜᴛᴏ Bɪᴏ : ${config.AUTOBİO}
 | │
-| │Fᴜʟʟ Eᴠᴀ : ${config.TALKING_PINKY}
+| │Fᴜʟʟ Eᴠᴀ : ${Configs.TALKING_PINKY}
 | │
 | │Cᴏᴜɴᴛᴇᴅ Cᴏᴍᴍᴀɴᴅs : 127
 | │
