@@ -17,11 +17,17 @@ Project created by <a href="https://github.com/AiDarkEzio">AiDarkEzio</a> to mak
     <br>
 </p>
 
+<div align="center">
+
 ![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/AiDarkEzio/PINKY_BOT-V10=Profile%20Views)
+
+## Read Me
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=AiDarkEzio&repo=PINKY_BOT-V10&theme=nightowl)](https://github.com/AiDarkEzio/PINKY_BOT-V10)
 
 ## Setup
 
-<div align="center">
+
 
 ### Simple Method
   
@@ -76,8 +82,6 @@ Click WA logo to Join Support Group
 [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/BT0nNPBthyFI1ejoSr0i7W)
   
 <div align="center">
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=AiDarkEzio&repo=PINKY_BOT-V10&theme=nightowl)](https://github.com/AiDarkEzio/PINKY_BOT-V10)
   
 </div>
 
