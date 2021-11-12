@@ -67,14 +67,19 @@ $ node julie.js
 
 ## 📢 Guide
 
-Click WA logo to Join Support Group 👇
-    <br>
-<br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/BT0nNPBthyFI1ejoSr0i7W)
-  <div align="center">
+Click WA logo to Join Support Group 
 
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=AiDarkEzio&repo=PINKY_BOT-V10&theme=nightowl)](https://github.com/AiDarkEzio/PINKY_BOT-V10)
-  </div>
+<br>
+
+<br>
+
+[![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/BT0nNPBthyFI1ejoSr0i7W)
+  
+<div align="center">
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=AiDarkEzio&repo=PINKY_BOT-V10&theme=nightowl)](https://github.com/AiDarkEzio/PINKY_BOT-V10)
+  
+</div>
 
 ### ⚠️ Warning
 
@@ -87,13 +92,14 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 
 ## Developers
 
-  <div align="center">
+<div align="center">
 
-  [![AiDarkEzio](https://github.com/AiDarkEzio.png?size=100)](https://github.com/AiDarkEzio/PINKY_BOT-V10) | [![TOXIC-DEVIL](https://github.com/TOXIC-DEVIL.png?size=100)](https://github.com/TOXIC-DEVIL) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk)
+[![AiDarkEzio](https://github.com/AiDarkEzio.png?size=100)](https://github.com/AiDarkEzio/PINKY_BOT-V10) | [![TOXIC-DEVIL](https://github.com/TOXIC-DEVIL.png?size=100)](https://github.com/TOXIC-DEVIL) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk)
 ----|----|----|----
 [AiDarkEzio](https://github.com/AiDarkEzio) | [TOXIC-DEVIL](https://github.com/TOXIC-DEVIL) | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://github.com/afnanplk)
 Developer, Base, Bug Fixes, Modules| Re-Developer, Bug Fixes, Modules, Commits |  Modifiying  as   public | Bug Fixes, Modules
-  </div>
+  
+</div>
 
 ## License
 
@@ -105,7 +111,7 @@ This project is protected by `GNU General Public Licence v3.0` license.
   
   </div>
 
-## VERSIONS
+## PACKAGE VERSIONS & COMMAND VERSIONS
   
   Name | Version
   ---- | ----
