@@ -26,9 +26,12 @@ if (Config.WORKTYPE == 'private') {
             HANDLER = ".";
         }
 
-        CMD_HELP +=(match.length >= 3 ? HANDLER + match[2] : command.pattern) +(command.desc === ""? "\n\n": " ".repeat(8 - match[2].length) + " : ");
+        CMD_HELP += '*🎀 ' + 'Pinky Cmd' + ':*' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
+            if (command.desc !== '') CMD_HELP += '*♻ ' + 'Pinky Desc' + ':*' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+            if (command.usage !== '') CMD_HELP += '*⚜ ' + 'Pinky Example' + ':*' + command.usage + '\n\n';
+            if (command.warn !== '') CMD_HELP += '*⚠ ' + 'Pinky Warn' + ':*' + command.warn + '\n\n';
 
-        if (command.desc !== "")
+            if (command.desc !== "")
 
         CMD_HELP += command.desc + (command.usage === "" ? "\n\n" : "\n\n");
     }
@@ -62,17 +65,19 @@ else if (Config.WORKTYPE == 'public') {
                 HANDLER = ".";
             }
             
-            CMD_HELP += '*🧩 ' + 'COMMAND' + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
-            if (command.desc !== '') CMD_HELP += '*🟢 ' + 'DESC' + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
+            CMD_HELP += '*🎀 ' + 'Pinky Cmd' + ':*' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '\n\n' : '\n');
+                if (command.desc !== '') CMD_HELP += '*♻ ' + 'Pinky Desc' + ':*' + command.desc + (command.warn === '' ? '\n\n' : '\n');
+                if (command.usage !== '') CMD_HELP += '*⚜ ' + 'Pinky Example' + ':*' + command.usage + '\n\n';
+                if (command.warn !== '') CMD_HELP += '*⚠ ' + 'Pinky Warn' + ':*' + command.warn + '\n\n';
 
-            if (command.desc !== "")
+                if (command.desc !== "")
 
             CMD_HELP += command.desc + (command.usage === "" ? "\n\n" : "\n\n");
 
             }
         });
 
-        return await message.sendMessage("```" + CMD_HELP + "```");
+        return await message.sendMessage(CMD_HELP);
 
     });
 }

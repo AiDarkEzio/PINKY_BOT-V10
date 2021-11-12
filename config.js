@@ -53,6 +53,11 @@ module.exports = {
     HANDLERS: '^[./;]',
     TAGPLK: 'Note this',
     BRANCH: 'master',
+    ON: "hunter",
+    TH: "THEVINDUapi",
+    HLOCK: "hadi-api",
+    ZTH: "d537895142",
+    XT: "62203531b66c44b4",
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
