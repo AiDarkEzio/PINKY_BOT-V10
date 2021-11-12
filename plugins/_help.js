@@ -14,7 +14,7 @@ const Language = require('../language');
 const config = require('../config');
 const Lang = Language.getString('_asena');
 
-if (config.WORKTYPE == private) { 
+if (config.WORKTYPE == 'private') { 
 
     Asena.addCommand({pattern: 'help ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
         var CMD_HELP = '';
