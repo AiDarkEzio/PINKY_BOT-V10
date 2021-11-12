@@ -71,6 +71,7 @@
     "translatte": "^3.0.1",
     "wikijs": "^6.3.2",
     "yt-search": "^2.10.2",
+    "text2image": "1.2.1",
     "ytdl-core": "^4.9.1"
   }
 }

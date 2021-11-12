@@ -1,6 +1,6 @@
 const chalk = require('chalk');
 const {WAConnection, MessageOptions, MessageType} = require('@adiwajshing/baileys');
-const {StringSession} = require('./pinky/');
+const {StringSession} = require('./pinky');
 const fs = require('fs');
 
 async function whatsAsena () {
