@@ -97,7 +97,7 @@ AiDarkEzio.addCommand({pattern: 'alive', fromMe: false, desc: 'It send alive msg
 | │⚜️.help
 | │⚜️.alive
 | │⚜️.bot
-| │⚜️.Admin
+| │⚜️.git
 | │⚜️.version
 | │⚜️.update
 | │⚜️.update now
