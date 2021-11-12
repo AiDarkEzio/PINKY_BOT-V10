@@ -62,7 +62,8 @@ else if (Config.WORKTYPE == 'public') {
                 HANDLER = ".";
             }
             
-            CMD_HELP += '🎀 ' + (match.length >= 3 ? HANDLER + match[2] : command.pattern) + (command.desc === "" ? "\n\n" : " ".repeat(8 - match[2].length) + "\n♻");
+            CMD_HELP += '*🧩 ' + 'COMMAND' + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+            if (command.desc !== '') CMD_HELP += '*🟢 ' + 'DESC' + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
 
             if (command.desc !== "")
 
