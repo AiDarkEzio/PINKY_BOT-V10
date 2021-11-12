@@ -12,7 +12,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 
 const Language = require('../language');
 const config = require('../config');
-const Lang = Language.getString('_asena');
+const Lang = Language.getString('_help');
 
 if (config.WORKTYPE == 'private') { 
 
