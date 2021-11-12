@@ -8,7 +8,7 @@ const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg'); // For Creating File
 const {execFile} = require('child_process');
-const cwebp = require('cwebp-bin');
+// const cwebp = require('cwebp-bin');
 const axios = require('axios'); // Resp Checker
 const Config = require('../config'); // GAN STYLE Support
 
