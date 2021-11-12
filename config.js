@@ -27,7 +27,7 @@ module.exports = {
     YAK: process.env.YAK === undefined ? '918921483992,0' : process.env.YAK,
     WORKTYPE: process.env.WORK_TYPE === undefined ? 'public' : process.env.WORK_TYPE,
     ANTİLİNK: 'false',
-    AUTOBİO: 'false',
+    AUTOBİO: 'true',
     KICKMEMSG: 'default',
     OWNER: 'AiDarkEzio',
     ALL: 'Made By Pinky',
