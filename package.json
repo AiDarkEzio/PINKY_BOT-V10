@@ -1,6 +1,6 @@
 {
   "name": "PINKY_BOT-V10",
-  "version": "10.0.0",
+  "version": "10.0.0.1",
   "description": "PINKY_BOT is the Modified Version of WhatsAsena, Made By @AiDarkEzio with Baileys.",
   "main": "./PINKY_BOT-V10/bot.js",
   "scripts": {

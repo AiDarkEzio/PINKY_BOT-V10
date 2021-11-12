@@ -11,7 +11,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v10.0.0.0',
+    VERSION: 'v10.0.0.1',
     CHANNEL: 'https://t.me/remasterplugin',
     GANSTYLE: 'https://i.hizliresim.com/loUtAb.jpg',
     SESSION: process.env.PINKY_SESSION === undefined ? '' : process.env.PINKY_SESSION,
