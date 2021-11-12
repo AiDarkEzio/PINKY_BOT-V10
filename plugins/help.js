@@ -80,7 +80,6 @@ if (Config.WORKTYPE == 'private') {
             CMD_HELP += command.desc + (command.usage === "" ? "\n\n" : "\n\n");
         }
       });
-      
       try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
       await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: caption + "```" + CMD_HELP + "```", quoted: message.data }); });
 
