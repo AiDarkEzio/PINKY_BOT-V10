@@ -7,14 +7,14 @@ WhatsAsena - Yusuf Usta
 */
 
 
-const Julie = require('../events');
+const AiDarkEzio = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-    Julie.addCommand({pattern: 'anime', fromMe: true, desc: 'random anime image'}, (async (message, match) => {
+    AiDarkEzio.addCommand({pattern: 'anime', fromMe: true, desc: 'random anime image'}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -108,7 +108,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Julie.addCommand({pattern: 'anime', fromMe: false, desc:'random anime image '}, (async (message, match) => {
+    AiDarkEzio.addCommand({pattern: 'anime', fromMe: false, desc:'random anime image '}, (async (message, match) => {
 
     var r_text = new Array ();
 
