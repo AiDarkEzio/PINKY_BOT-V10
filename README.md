@@ -14,21 +14,23 @@ Project created by <a href="https://github.com/AiDarkEzio">AiDarkEzio</a> to mak
     <br>
        | © |
         Reserved |
-    <br> 
+    <br>
 </p>
 
 ![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/AiDarkEzio/PINKY_BOT-V10=Profile%20Views)
 
 ## Setup
+
 <div align="center">
 
-  ### Simple Method
+### Simple Method
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AiDarkEzio/PINKY_BOT-V10) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AiDarkEzio/PINKY_BOT-V10)
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Farhandqz/JulieMwol)
   
 ### The Hard Method
+
 ```js
 GET QR
 $ apt install git
@@ -39,7 +41,7 @@ $ npm install @adiwajshing/baileys
 $ npm install chalk
 $ node julie.js
 ```
-      
+
 ```js
 SETUP
 $ git clone https://github.com/AiDarkEzio/PINKY_BOT-V10
@@ -52,7 +54,7 @@ $ node julie.js
 
   <p align="center">
   <a href="https://github.com/AiDarkEzio/PINKY_BOT-V10">
-    
+
 <a href="https://github.com/AiDarkEzio/followers">
 <img src="https://img.shields.io/github/repo-size/AiDarkEzio/PINKY_BOT-V10?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
@@ -64,17 +66,19 @@ $ node julie.js
 </p>
 
 ## 📢 Guide
+
 Click WA logo to Join Support Group 👇
     <br>
 <br>
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/BT0nNPBthyFI1ejoSr0i7W)
   <div align="center">
-       
+
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=AiDarkEzio&repo=PINKY_BOT-V10&theme=nightowl)](https://github.com/AiDarkEzio/PINKY_BOT-V10)
   </div>
-    
-### ⚠️ Warning! 
-```
+
+### ⚠️ Warning
+
+```text
 Due to Userbot; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
 Absolutely, Asena executives do not accept responsibility.
@@ -82,23 +86,25 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ```
 
 ## Developers
-  <div align="center">
-    
-  [![AiDarkEzio](https://github.com/AiDarkEzio.png?size=100)](https://github.com/AiDarkEzio/PINKY_BOT-V10) | [![TOXIC-DEVIL](https://github.com/TOXIC-DEVIL.png?size=100)](https://github.com/TOXIC-DEVIL) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
-----|----|----|----
-[AiDarkEzio](https://github.com/AiDarkEzio) | [TOXIC-DEVIL](https://github.com/TOXIC-DEVIL) | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://github.com/afnanplk) 
-Developer, Base, Bug Fixes, Modules| Re-Developer, Bug Fixes, Modules, Commits |  Modifiying  as   public | Bug Fixes, Modules 
-  </div>
-    
 
+  <div align="center">
+
+  [![AiDarkEzio](https://github.com/AiDarkEzio.png?size=100)](https://github.com/AiDarkEzio/PINKY_BOT-V10) | [![TOXIC-DEVIL](https://github.com/TOXIC-DEVIL.png?size=100)](https://github.com/TOXIC-DEVIL) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk)
+----|----|----|----
+[AiDarkEzio](https://github.com/AiDarkEzio) | [TOXIC-DEVIL](https://github.com/TOXIC-DEVIL) | [TOXIC4L!3N](https://github.com/AI-VIKI) | [afnanplk](https://github.com/afnanplk)
+Developer, Base, Bug Fixes, Modules| Re-Developer, Bug Fixes, Modules, Commits |  Modifiying  as   public | Bug Fixes, Modules
+  </div>
 
 ## License
+
 This project is protected by `GNU General Public Licence v3.0` license.
 
 ### Disclaimer
+
 `WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
   
-  
+  </div>
+
 ## VERSIONS
   
   Name | Version
@@ -123,9 +129,9 @@ This project is protected by `GNU General Public Licence v3.0` license.
   🎀 tiktok-scraper | 1.4.36 ✅
   🎀 request | 2.88.2 ✅
   🎀 exchange-rates-api | ^1.1.0 ✅
-  🎀 fluent-ffmpeg | ^2.1.2 ✅ 
+  🎀 fluent-ffmpeg | ^2.1.2 ✅
   🎀 form-data | ^4.0.0 ✅
-  🎀 g-i-s | ^2.1.6 ✅ 
+  🎀 g-i-s | ^2.1.6 ✅
   🎀 google-translate-tts | ^0.4.0-dev ✅
   🎀 got | ^11.8.2 ✅
   🎀 heroku-client | ^3.1.0 ✅
