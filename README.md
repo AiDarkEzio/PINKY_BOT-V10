@@ -8,6 +8,16 @@
 <a href="https://github.com/AiDarkEzio"><img title="Author" src="https://img.shields.io/badge/Author-AiDarkEzio/PINKY_BOT-V10?color=blue&style=for-the-badge&logo=whatsapp"></a><br>
 <a href="https://github.com/AiDarkEzio/PINKY_BOT-V10/discussions"><img title="Discussions" src="https://img.shields.io/badge/Discussions-AiDarkEzio/PINKY_BOT-V10/discussions?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
+<a href="https://github.com/AiDarkEzio/PINKY_BOT-V10">
+<a href="https://github.com/AiDarkEzio/followers">
+<img src="https://img.shields.io/github/repo-size/AiDarkEzio/PINKY_BOT-V10?color=green&label=Repo%20total%20size&style=plastic">
+<p align="center">
+<a href="https://github.com/AiDarkEzio/followers"
+<img title="Followers" src="https://img.shields.io/github/followers/AiDarkEzio?color=blue&style=flat-square"></a>
+<a href="https://github.com/AiDarkEzio/PINKY_BOT-V10/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/AiDarkEzio/PINKY_BOT-V10?color=blue&style=flat-square"></a>
+<a href="https://github.com/AiDarkEzio/PINKY_BOT-V10/network/members"><img title="Forks" src="https://img.shields.io/github/forks/AiDarkEzio/PINKY_BOT-V10?color=blue&style=flat-square"></a>
+<a href="https://github.com/AiDarkEzio/PINKY_BOT-V10/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/AiDarkEzio/PINKY_BOT-V10?label=Watchers&color=blue&style=flat-square"></a>
+  
 </div>
 <p align="center">
 Project created by <a href="https://github.com/AiDarkEzio">AiDarkEzio</a> to make it public
@@ -17,7 +27,7 @@ Project created by <a href="https://github.com/AiDarkEzio">AiDarkEzio</a> to mak
     <br>
 </p>
 
-<div align="center">
+
 
 ![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/AiDarkEzio/PINKY_BOT-V10=Profile%20Views)
 
@@ -55,24 +65,11 @@ $ node julie.js
 
 ----
 
-  <p align="center">
-  <a href="https://github.com/AiDarkEzio/PINKY_BOT-V10">
-
-<a href="https://github.com/AiDarkEzio/followers">
-<img src="https://img.shields.io/github/repo-size/AiDarkEzio/PINKY_BOT-V10?color=green&label=Repo%20total%20size&style=plastic">
-<p align="center">
-<a href="https://github.com/AiDarkEzio/followers"
-<img title="Followers" src="https://img.shields.io/github/followers/AiDarkEzio?color=blue&style=flat-square"></a>
-<a href="https://github.com/AiDarkEzio/PINKY_BOT-V10/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/AiDarkEzio/PINKY_BOT-V10?color=blue&style=flat-square"></a>
-<a href="https://github.com/AiDarkEzio/PINKY_BOT-V10/network/members"><img title="Forks" src="https://img.shields.io/github/forks/AiDarkEzio/PINKY_BOT-V10?color=blue&style=flat-square"></a>
-<a href="https://github.com/AiDarkEzio/PINKY_BOT-V10/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/AiDarkEzio/PINKY_BOT-V10?label=Watchers&color=blue&style=flat-square"></a>
-</p>
-
 ## 📢 Guide
 
 Click WA logo to Join Support Group 
 
-[![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://seeklogo.com/images/W/whatsapp-logo-A5A7F17DC1-seeklogo.com.png)
+[![join](https://seeklogo.com/images/W/whatsapp-logo-A5A7F17DC1-seeklogo.com.png)](https://chat.whatsapp.com/Bud1dd31AueDpG1kpn2jnt)
 
 ### ⚠️ Warning
 
