@@ -1,5 +1,5 @@
 module.exports = {
-    VERSION: 'v10.0.0.1',
+    VERSION: 'v10.0.0.5',
     CHANNEL: 'https://t.me/remasterplugin',
     GANSTYLE: 'https://i.hizliresim.com/loUtAb.jpg',
     ANTİLİNK: 'false',

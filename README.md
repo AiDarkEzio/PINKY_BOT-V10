@@ -26,9 +26,6 @@ Project created by <a href="https://github.com/AiDarkEzio">AiDarkEzio</a> to mak
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=AiDarkEzio&repo=PINKY_BOT-V10&theme=nightowl)](https://github.com/AiDarkEzio/PINKY_BOT-V10)
 
 ## Setup
-
-
-
 ### Simple Method
   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AiDarkEzio/PINKY_BOT-V10)
@@ -75,15 +72,7 @@ $ node julie.js
 
 Click WA logo to Join Support Group 
 
-<br>
-
-<br>
-
-[![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/BT0nNPBthyFI1ejoSr0i7W)
-  
-<div align="center">
-  
-</div>
+[![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://seeklogo.com/images/W/whatsapp-logo-A5A7F17DC1-seeklogo.com.png)
 
 ### ⚠️ Warning
 
@@ -95,8 +84,6 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ```
 
 ## Developers
-
-<div align="center">
 
 [![AiDarkEzio](https://github.com/AiDarkEzio.png?size=100)](https://github.com/AiDarkEzio/PINKY_BOT-V10) | [![TOXIC-DEVIL](https://github.com/TOXIC-DEVIL.png?size=100)](https://github.com/TOXIC-DEVIL) |  [![TOXIC4L!3N](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk)
 ----|----|----|----
@@ -119,7 +106,7 @@ This project is protected by `GNU General Public Licence v3.0` license.
   
   Name | Version
   ---- | ----
-  🎀 Pinky-Bot | 10.0.0.1 ✅
+  🎀 Pinky-Bot | 10.0.0.5 ✅
   🎀 @adiwajshing/baileys | 3.5.2 ✅
   🎀 @lh2020/speedtest-net | ^2.1.1 ✅
   🎀 textmaker-thiccy | 1.2.6 ✅
@@ -133,7 +120,7 @@ This project is protected by `GNU General Public Licence v3.0` license.
   🎀 cwebp | ^2.0.5 ✅
   🎀 search-engine-client | ^1.2.6 ✅
   🎀 deepai | ^1.0.17 ✅
-  🎀 cwebp-bin | ^7.0.1 ❌
+  🎀 cwebp-bin | ^^6.1.1 ❌
   🎀 tinyurl | ^1.1.7 ✅
   🎀 dotenv | ^10.0.0 ✅
   🎀 tiktok-scraper | 1.4.36 ✅
