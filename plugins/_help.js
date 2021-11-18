@@ -36,7 +36,10 @@ if (Config.WORKTYPE == 'private') {
         CMD_HELP += command.desc + (command.usage === "" ? "\n\n" : "\n\n");
     }
         });
-        return await message.sendMessage("```" + CMD_HELP + "```");
+            let pp
+            try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
+            await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: CMD_HELP }); });
+            return
         }
   );
 }
@@ -77,7 +80,11 @@ else if (Config.WORKTYPE == 'public') {
             }
         });
 
-        return await message.sendMessage(CMD_HELP);
+        let pp
+        try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
+        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: CMD_HELP }); });
+
+        return 
 
     });
 }
