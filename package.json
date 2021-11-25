@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/AiDarkEzio/PINKY_BOT-V10#readme",
   "dependencies": {
-    "@adiwajshing/baileys": "3.5.2",
+    "@adiwajshing/baileys": "3.5.3",
     "@lh2020/speedtest-net": "^2.1.1",
     "textmaker-thiccy": "1.2.6",
     "browser-id3-writer": "^4.4.0",

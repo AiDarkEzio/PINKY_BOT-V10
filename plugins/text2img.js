@@ -18,12 +18,14 @@ Asena.addCommand({pattern: 'nin ?(.*)', fromMe: true, dontAddCommandList: true},
 
     // PNG
     text2image.convert(font, 'Hello, World!', 0, 0, 72).then(buffer => {
+        
         var img = fs.writeFileSync('hello_world.png', buffer) // <Buffer 89 50 4e ..
+
+        await message.sendMessage("I got imag & sending");
+
+        await message.client.sendMessage(message.jid, img.data, MessageType.image, { caption: Config.ALIVEMSG, quoted: message.data });
+
     })
-
-    await message.sendMessage("I got imag & sending");
-
-    await message.client.sendMessage(message.jid, img.data, MessageType.image, { caption: Config.ALIVEMSG, quoted: message.data });
     
     await message.sendMessage("uplode it");
 }));
