@@ -1,3 +1,11 @@
+/* Copyright (C) 2020 Yusuf Usta.
+
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+
+WhatsAsena - Yusuf Usta
+*/
+
 const fs = require("fs");
 const path = require("path");
 const events = require("./events");
@@ -5,7 +13,7 @@ const chalk = require('chalk');
 const config = require('./config');
 const simpleGit = require('simple-git');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./pinky/');
+const {Message, StringSession, Image, Video} = require('./julie/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const git = simpleGit();
@@ -57,7 +65,7 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function PINKY () {
+async function whatsAsena () {
     await config.DATABASE.sync();
     var StrSes_Db = await WhatsAsenaDB.findAll({
         where: {
@@ -98,7 +106,7 @@ ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     });
-
+    
 
     conn.on('open', async () => {
         console.log(
@@ -132,7 +140,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Pinky is working! smoothly')
+            chalk.green.bold('✅ Julie Mwol working!')
         );
         await conn.sendMessage(
             conn.user.jid,
@@ -145,15 +153,15 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (commits.total === 0) {
                 await conn.sendMessage(conn.user.jid,Lang.UPDATE, MessageType.text);    
             } else {
-                var pinkyupdate = Lang.NEW_UPDATE;
+                var julieupdate = Lang.NEW_UPDATE;
                 commits['all'].map(
                     (commit) => {
-                        pinkyupdate += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                        julieupdate += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
                     }
                 );
                 await conn.sendMessage(
                     conn.user.jid,
-                    '```type``` *.update now* ```to update```\n\n' + pinkyupdate + '```', MessageType.text
+                    '```type``` *.update now* ```to update```\n\n' + julieupdate + '```', MessageType.text
                 ); 
             } 
       }
@@ -308,7 +316,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [ERROR PINKY] --' + 
+                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [WHATSASENA] --' + 
                                     '\n*WhatsAsena bir hata gerçekleşti!*'+
                                     '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
                                     '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
@@ -316,7 +324,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ PINKY BOT ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝕁𝕦𝕝𝕚𝕖𝕄𝕨𝕠𝕝 ~______~*' +
                                     '\n\n*🧞‍♂️ ' + error + '*\n\n*Support group*\nchat.whatsapp.com/EWLP9VPgYmgGff6NORWSKk ' 
                                     , MessageType.text);
                             }
@@ -342,4 +350,4 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     }
 }
 
-PINKY();
+whatsAsena();

@@ -7,6 +7,7 @@ const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg');
 const {execFile} = require('child_process');
+const cwebp = require('cwebp-bin');
 const Config = require('../config');
 const cheerio = require('cheerio')
 const FormData = require('form-data')

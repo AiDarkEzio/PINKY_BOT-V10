@@ -12,7 +12,7 @@ const fs = require('fs');
 const Language = require('../language');
 const Lang = Language.getString('profile');
 
-Julie.addCommand({pattern: 'leave$', fromMe: true, dontAddCommandList: false, desc: Lang.KICKME_DESC, onlyGroup: true}, (async (message, match) => {
+Julie.addCommand({pattern: 'leave$', fromMe: true, dontAddCommandList: true, desc: Lang.KICKME_DESC, onlyGroup: true}, (async (message, match) => {
     if (Config.KICKMEMSG == 'default') { 
         await message.client.sendMessage(message.jid,Lang.KICKME,MessageType.text);
         await message.client.groupLeave(message.jid);
@@ -23,7 +23,7 @@ Julie.addCommand({pattern: 'leave$', fromMe: true, dontAddCommandList: false, de
     }
 }));
 
-Julie.addCommand({pattern: 'pp$', fromMe: true, dontAddCommandList: false, desc: Lang.PP_DESC}, (async (message, match) => {    
+Julie.addCommand({pattern: 'pp$', fromMe: true, dontAddCommandList: true, desc: Lang.PP_DESC}, (async (message, match) => {    
     if (!message.reply_message || !message.reply_message.image) return await message.client.sendMessage(message.jid,Lang.NEED_PHOTO, MessageType.text);
     
     var load = await message.client.sendMessage(message.jid,Lang.PPING,MessageType.text);
@@ -39,7 +39,7 @@ Julie.addCommand({pattern: 'pp$', fromMe: true, dontAddCommandList: false, desc:
     await message.client.deleteMessage(message.jid, {id: load.key.id, remoteJid: message.jid, fromMe: true})
 }));
 
-Julie.addCommand({pattern: 'block ?(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.BLOCK_DESC}, (async (message, match) => {   
+Julie.addCommand({pattern: 'block ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.BLOCK_DESC}, (async (message, match) => {   
     if (Config.BLOCKMSG == 'default') {  
         if (message.reply_message !== false) {
             await message.client.sendMessage(message.jid, '@' + message.reply_message.jid.split('@')[0] + '```, ' + Lang.BLOCKED + '!```', MessageType.text, {
@@ -82,7 +82,7 @@ Julie.addCommand({pattern: 'block ?(.*)', fromMe: true, dontAddCommandList: fals
     }
 }));
 
-Julie.addCommand({pattern: 'unblock ?(.*)', fromMe: true, dontAddCommandList: false, desc: Lang.UNBLOCK_DESC}, (async (message, match) => { 
+Julie.addCommand({pattern: 'unblock ?(.*)', fromMe: true, dontAddCommandList: true, desc: Lang.UNBLOCK_DESC}, (async (message, match) => { 
     if (Config.UNBLOCKMSG == 'default') { 
    
         if (message.reply_message !== false) {

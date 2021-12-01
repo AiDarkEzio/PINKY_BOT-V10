@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *Pinky Bot*:  ```" + msg + "```"
+    return "✅ *Julie Mwol*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *Pinky Bot*:  ```" + msg + "```"
+    return "🛑 *Julie Mwol*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *Pinky Bot*:  ```" + msg + "```"
+    return "⏺️ *Julie Mwol*:  ```" + msg + "```"
 }
 
 

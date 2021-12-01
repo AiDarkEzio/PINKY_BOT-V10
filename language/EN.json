@@ -4,13 +4,6 @@
     "LANGCODE": "en",
     "AUTHOR": "AsenaDev",
     "STRINGS": {
-        "_help": {
-            "COMMAND": "Pinky Cmd",
-            "DESC": "Des",
-            "EXAMPLE": "Eg",
-            "NOT_FOUND": "*I couldnt find a command like this*",
-            "WARN": "Warn"
-        },
         "julie": {
             "EXAMPLE": "Eg:- ",
             "NOT_FOUND": "*I couldnt find a command like this*",
