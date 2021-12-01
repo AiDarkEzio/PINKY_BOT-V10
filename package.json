@@ -53,7 +53,7 @@
     "got": "^11.8.2",
     "heroku-client": "^3.1.0",
     "jimp": "0.16.1",
-    "js-ffmpeg": "0.0.32",
+    "js-ffmpeg": "0.0.33",
     "jsdom": "^18.0.1",
     "langs": "^2.0.0",
     "languagedetect": "^2.0.0",
