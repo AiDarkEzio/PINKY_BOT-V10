@@ -36,10 +36,7 @@ if (Config.WORKTYPE == 'private') {
         CMD_HELP += command.desc + (command.usage === "" ? "\n\n" : "\n\n");
     }
         });
-        
-        await message.client.sendMessage(message.jid, CMD_HELP, MessageType.text);
-        
-        return
+        return await message.sendMessage("```" + CMD_HELP + "```");
         }
   );
 }
@@ -80,9 +77,7 @@ else if (Config.WORKTYPE == 'public') {
             }
         });
 
-        await message.client.sendMessage(message.jid, CMD_HELP, MessageType.text);
-
-        return 
+        return await message.sendMessage(CMD_HELP);
 
     });
 }
