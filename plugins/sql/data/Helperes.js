@@ -26,8 +26,39 @@ function infoMessage(msg) {
     return "⏺️ *Pinky Bot*:  ```" + msg + "```"
 }
 
+function songsender(name,url,RTime,UTime,Viws,cName) {
+
+`=====================
+
+»» ♪ *Name* : ${name}
+
+»» 💌 *Link* : ${url}
+
+»» 🕕 *Running Time* : ${RTime}
+
+»» ♻️ *Uploade Date* : ${UTime}
+
+»» 👩‍💻 *Views* : ${Viws}
+
+»» 🆔 *Chanel name* : ${cName}
+
+=====================
+
+»» [  ᴛʏᴘᴇ: •ᴍᴘ𝟹 & •ᴍʀᴀ  ] ««
+»» [ ᴜᴘʟᴏᴀᴅɪɴɢ ʏᴏᴜʀ sᴏɴɢ ] ««
+
+*And Plz Subscribe My Yt Chanel*
+
+»» [ https://youtube.com/channel/UCeDeaDD8dpdMT2gO3VHY1JQ ]
+
+=====================
+`
+
+    return 
+}
 
 module.exports = {
+    songsender,
     successfullMessage,
     errorMessage,
     infoMessage

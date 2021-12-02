@@ -20,7 +20,7 @@
         "SEND_READ": {
             "description": "Write true if you want to throw seen.",
             "required": true,
-            "value": "true"
+            "value": "false"
         },
         "HEROKU": {
             "description": "If it is running in Heroku, type true.",
