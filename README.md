@@ -19,6 +19,15 @@ Project created by <a href="https://github.com/AiDarkEzio">AiDarkEzio</a> to mak
 
 ![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/AiDarkEzio/PINKY_BOT-V10=Profile%20Views)
 
+## Report This Program Bugs
+
+- [![discussions ](https://raw.githubusercontent.com/zeqanpx/Media/main/img/icons8-talk-show-48.png)](https://github.com/AiDarkEzio/PINKY_BOT-V10/discussions/new)
+- [Click Here](https://github.com/AiDarkEzio/PINKY_BOT-V10/discussions/new)
+
+## Send Your FeedBack
+
+- [Click Here](https://github.com/AiDarkEzio/PINKY_BOT-V10/discussions/4)
+
 ## Setup
 
 <div align="center">
